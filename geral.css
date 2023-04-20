@@ -1,8 +1,8 @@
 :root {
-   --fundocor: #362772;
+   --fundocor: #6B4BEB;
    --corletra: #55347D;
-   --corfundo2: #2d215d;
-   --corquadrado: #2a143d;
+   --corfundo2: #8457FA;
+   --corquadrado: #A959F0;
 }
 * {
     margin: 0;
@@ -20,15 +20,17 @@
 .conteudo {
     width: 100%;
     height: 20px;
-    background-color: #672222;
+    background-color: var(--fundocor);
     text-align: center;
 }
 .rodape {
     width: 100%;
     height: 50px;
     background-color: var(--corquadrado);
-        grid-row-start: 2;
-        grid-row-end: 3;
+}
+
+body {
+    background-color: white;
 }
 
 h2 {
@@ -48,67 +50,11 @@ h3 {
 }
 .menu {
     text-decoration: none;
-    color:black;
+    color:white;
     text-indent: 25px;
     margin-left: 20px;
 }
 .video {
    margin: 0 auto;
    display: block;
-}
-
-.nossosnomes {
-    background-color: #200f2f;
-    color:#bd4949;
-}
-
-#joia {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-body {
-    background-color:var(--fundocor)
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1 {
-    background-color: var(--fundocor);
-    color: black;
-}
-h2 {
-    background-color: var(--fundocor);
-    color: black;
-}
-h3 {
-    background-color: var(--fundocor);
-    color: black;
-}
-h4 {
-    background-color: var(--fundocor);
-    color: black;
-}
-h5 {
-    background-color: var(--fundocor);
-    color: black;
-}
-p {
-    color:black
 }
