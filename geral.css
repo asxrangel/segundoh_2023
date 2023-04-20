@@ -43,5 +43,18 @@ h1 {
 }
 h3 {
     color: black;
+    text-indent: 10px;
+    margin-left: 10px;
+    font-weight: normal;
     
+}
+.menu {
+    text-decoration: none;
+    color:white;
+    text-indent: 25px;
+    margin-left: 20px;
+}
+.video {
+   margin: 0 auto;
+   display: block;
 }
